@@ -1,0 +1,553 @@
+@import url(https://allfont.net/allfont.css?fonts=alien-encounters);
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
+body {
+    margin: 0;
+    background-color: rgb(42, 42, 42);
+}
+
+
+
+.nava {
+    background-color: #333;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+.nava a {
+
+    font-family: 'Black ops one';
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+
+
+}
+
+.nava a.active {
+    background-color: rgb(255, 163, 26);
+    color: white;
+}
+
+
+
+
+
+
+
+.home {
+    background-color: rgb(255, 163, 26);
+    display: flex;
+    overflow-x: auto;
+    justify-content: center;
+}
+
+.home img {
+    display: none;
+}
+
+.home h1 {
+    width: 100%;
+    font-size: 40px;
+    color: white;
+    font-family: 'Black ops one';
+    padding-top: 20%;
+    text-align: center;
+
+}
+
+
+
+.gr h1 {
+    margin-left: 5%;
+    color: rgb(255, 163, 26);
+    font-family: 'verdana';
+    font-size: 16pt;
+    text-align: left;
+    margin-bottom: 0px;
+}
+
+
+.reco img {
+    width: 90%;
+    margin-left: 5%;
+
+
+
+}
+
+.reco h2 {
+    margin-left: 5%;
+    color: white;
+    font-family: 'verdana';
+
+}
+
+
+
+/*bo2*/
+
+.headerbo {
+    /*position: relative;*/
+    background-color: rgb(255, 163, 26);
+    display: flex;
+    overflow-x: auto;
+    justify-content: center;
+
+
+}
+
+.headerbo img {
+    display: none;
+}
+
+.headerbo h2 {
+
+    width: 100%;
+    font-size: 40px;
+    color: white;
+    font-family: 'Black ops one';
+    padding-top: 10%;
+    text-align: center;
+}
+
+
+
+
+.sectbo {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.sectbo img {
+    width: 90%;
+    margin-left: 5%;
+
+
+}
+
+.sectbo h1 {
+    color: rgb(255, 163, 26);
+    font-family: 'verdana';
+    font-size: 16pt;
+    margin-left: 5%;
+
+}
+
+.sectbo h2 {
+    color: white;
+    font-family: 'verdana';
+    font-size: 16pt;
+    margin-left: 5%;
+
+}
+
+.sectbo p {
+    font-size: 40px;
+    color: white;
+    font-family: 'verdana';
+    font-size: 12pt;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+.voet {
+    background-color: #333;
+    padding: 14px 16px;
+
+}
+
+.voet p {
+
+    color: white;
+    font-family: 'verdana';
+    font-size: 5pt;
+    text-align: center;
+}
+
+/*crusader kings 2*/
+
+.headerck {
+    background-color: rgb(255, 163, 26);
+    display: flex;
+    overflow-x: auto;
+    justify-content: center;
+}
+
+.headerck img {
+    display: none;
+}
+
+.headerck h2 {
+
+    width: 100%;
+    font-size: 40px;
+    color: rgb(255, 163, 26);
+    font-family: 'Black ops one';
+    padding-top: 10%;
+    text-align: center;
+}
+
+
+.titans h1 {
+    margin-left: 5%;
+    color: white;
+    font-family: 'verdana';
+    font-size: 18pt;
+    text-align: left;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+
+
+.titan1 {
+    margin-bottom: 50px;
+}
+
+.titan2 {
+    margin-bottom: 50px;
+}
+
+.titan3 {
+    margin-bottom: 50px;
+}
+
+.titan4 {
+    margin-bottom: 50px;
+}
+
+.titan5 {
+    margin-bottom: 50px;
+}
+
+.titan6 {
+    margin-bottom: 50px;
+}
+
+.titan7 {
+    margin-bottom: 50px;
+}
+
+.titan8 {
+    margin-bottom: 50px;
+}
+
+.titan9 {
+    margin-bottom: 50px;
+}
+
+
+
+
+
+@media (min-width: 480px) {
+    .home {
+        position: relative;
+        background-color: none;
+        display: block;
+    }
+
+
+
+    .home img {
+        width: 100%;
+        background-size: cover;
+        display: block;
+        height: 0 auto
+    }
+
+
+    .home h1 {
+        color: aliceblue;
+        font-family: Black Ops One;
+        font-size: 60px;
+        position: absolute;
+        z-index: 5;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        top: 10%;
+        bottom: 50%;
+    }
+
+    .headerbo {
+        display: none;
+    }
+
+    .titans h2 {
+        font-size: 12pt;
+    }
+
+    .titanflex1 {
+        display: flex;
+        margin-left: 3.5%;
+        margin-right: 3.5%;
+    }
+
+    .titan1 {
+        flex: 1;
+    }
+
+    .titan2 {
+        flex: 1;
+    }
+
+    .titan3 {
+        flex: 1;
+    }
+
+    .titanflex2 {
+        display: flex;
+        margin-left: 3.5%;
+        margin-right: 3.5%;
+    }
+
+    .titan4 {
+        flex: 1;
+    }
+
+    .titan5 {
+        flex: 1;
+    }
+
+    .titan6 {
+        flex: 1;
+    }
+
+    .titanflex3 {
+        display: flex;
+        margin-left: 3.5%;
+        margin-right: 3.5%;
+
+    }
+
+    .titan7 {
+        flex: 1;
+    }
+
+    .titan8 {
+        flex: 1;
+    }
+
+    .titan9 {
+        flex: 1;
+    }
+
+}
+
+/*bo*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 800px) {
+
+    .sectbo h1 {
+        color: rgb(255, 163, 26);
+        font-family: 'verdana';
+        font-size: 24pt;
+        margin-left: 5%;
+
+    }
+
+    .hoofdroll {
+        margin-top: 5%;
+        margin-bottom: -1%;
+    }
+
+    .nava {
+        height: 50px;
+    }
+
+    .nava a {
+
+        font-family: 'Black ops one';
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 20px;
+        text-decoration: none;
+        font-size: 16pt;
+
+    }
+
+    .home {
+        position: relative;
+        background-color: none;
+        display: block;
+    }
+
+
+
+    .home img {
+        width: 100%;
+        background-size: cover;
+        display: block;
+        height: 0 auto
+    }
+
+
+    .home h1 {
+        color: aliceblue;
+        font-family: Black Ops One;
+        font-size: 100px;
+        position: absolute;
+        z-index: 5;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        top: 10%;
+        bottom: 50%;
+    }
+
+    .headerbo {
+        display: none;
+    }
+
+    /*navigation*/
+
+
+
+
+    /*selection
+*/
+    .reco {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+
+
+    }
+
+
+    .bo2 {
+        flex: 1;
+    }
+
+    .ck2 {
+        flex: 1;
+    }
+
+    .gta {
+        flex: 1;
+
+
+    }
+
+    .sectbo1 {
+        display: flex;
+        margin-left: 3.5%;
+        margin-right: 3.5%;
+
+    }
+
+    .bogameplay {
+        margin-top: 5%;
+        flex: 1;
+
+    }
+
+    .bomulti {
+        flex: 1;
+    }
+
+    .sectbo1 img {
+        height: auto;
+    }
+
+    .gr h1 {
+        margin-left: 1.5%;
+        font-size: 24pt;
+        margin-top: 5%;
+    }
+
+    .titans h1 {
+        margin-left: 5%;
+        margin-top: 5%;
+        color: rgb(255, 163, 26);
+    }
+
+    .titans h2 {
+        font-size: 16pt;
+    }
+
+    .titanflex1 {
+        display: flex;
+        margin-left: 3.5%;
+        margin-right: 3.5%;
+    }
+
+    .titan1 {
+        flex: 1;
+    }
+
+    .titan2 {
+        flex: 1;
+    }
+
+    .titan3 {
+        flex: 1;
+    }
+
+    .titanflex2 {
+        display: flex;
+        margin-left: 3.5%;
+        margin-right: 3.5%;
+    }
+
+    .titan4 {
+        flex: 1;
+    }
+
+    .titan5 {
+        flex: 1;
+    }
+
+    .titan6 {
+        flex: 1;
+    }
+
+    .titanflex3 {
+        display: flex;
+        margin-left: 3.5%;
+        margin-right: 3.5%;
+
+    }
+
+    .titan7 {
+        flex: 1;
+    }
+
+    .titan8 {
+        flex: 1;
+    }
+
+    .titan9 {
+        flex: 1;
+    }
+
+}
